@@ -56,11 +56,11 @@ const EditTodo = ({ todo }) => {
           <div class="modal-footer">
             <button 
             type="button" 
-            class="btn btn-warning" 
+            class="btn btn-success" 
             data-dismiss="modal" 
             onClick={e => updateDescription(e)}
             >
-                Edit
+                Make Change
                 </button>
             <button type="button" 
             class="btn btn-danger" 
